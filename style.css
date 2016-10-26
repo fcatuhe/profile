@@ -13,13 +13,13 @@ h1, h2, h3 {
 
 h1 {
   color: #0084B4;
-  font-size: 1.75em;
-  line-height: 2em;
+  font-size: 1.5em;
+  line-height: 1.75em;
 }
 
 h2 {
-  font-size: 1.5em;
-  line-height: 1.75em;
+  font-size: 1em;
+  line-height: 1.25em;
 }
 
 h3 {
@@ -40,7 +40,7 @@ td {
 }
 
 .container {
-  width: 600px;
+  width: 1000px;
   margin: 0 auto;
   background-color: rgba(0, 132, 180, 0.8);
   border-radius: 10px;
@@ -100,13 +100,29 @@ td {
   color: rgb(100, 100, 100);
 }
 
-#sidebar {
-  position: fixed;
-  width: 300px;
-  left: 0;
-  top: 0;
-  bottom: 0;
+.clear {
+  clear: both;
 }
-#page-content {
-  margin-left: 300px;
+
+#wrapper {
+  position: relative;
+}
+#left {
+  width: 360px;
+  float: left;
+}
+
+#right {
+  width: 538px;
+  float: right;
+}
+
+#footer {
+  position: relative;
+}
+
+#cheers {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }

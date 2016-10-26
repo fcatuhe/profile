@@ -16,38 +16,31 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="sidebar">
-      <ul>
-        <li><a href="#profile">Profile</a></li>
-        <li><a href="#social">Social</a></li>
-        <li><a href="#movies">Movies</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-    </div>
-    <div id="page-content">
-      <div class="container">
-        <div id="profile"class="card">
-          <img src="images/fcatuhe_image.jpg" alt="François Catuhe" class="img-w150 img-circle">
-          <h1>François Catuhe</h1>
-          <h2>Student @ Le Wagon Bordeaux</h2>
-          <p>HTML & CSS all-time master</p>
-          <p>His design talents are often described by his fellow buddies as<br><span class="big">"too big for his 150px profile picture"</span></p>
+      <div id="wrapper" class="container">
+        <div id="left">
+          <div class="card">
+            <img src="images/fcatuhe_image.jpg" alt="François Catuhe" class="img-w150 img-circle">
+            <h1>François Catuhe</h1>
+            <h2>Student @ Le Wagon Bordeaux</h2>
+            <p>HTML & CSS all-time master</p>
+            <p>His design talents are often described by his fellow buddies as<br><span class="big">"too big for his 150px profile picture"</span></p>
+          </div>
+          <div class="card">
+            <h2>Know me better</h2>
+            <ul class="list-inline social-size">
+              <li>
+                <a href="https://www.facebook.com/fcatuhe"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="https://fr.linkedin.com/in/fcatuhe"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/fcatuhe"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div id="social" class="card">
-          <h2>Know me better</h2>
-          <ul class="list-inline social-size">
-            <li>
-              <a href="https://www.facebook.com/fcatuhe"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="https://fr.linkedin.com/in/fcatuhe"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="https://github.com/fcatuhe"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-            </li>
-          </ul>
-        </div>
-        <div id="movies" class="card">
+        <div id="right" class="card">
           <h2>My favorite movies</h2>
           <table>
             <tr>
@@ -79,11 +72,12 @@
             </tr>
           </table>
         </div>
-        <div id="about" class="card">
+        <div class="clear"></div>
+        <div id="footer" class="card">
           <h2>About this page</h2>
           <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> in Bordeaux ;-)</p>
+          <div id="cheers">Cheers! <i class="fa fa-glass" aria-hidden="true"></i></div>
         </div>
       </div>
-    </div>
   </body>
 </html>
